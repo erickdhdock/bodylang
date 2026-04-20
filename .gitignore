@@ -1,0 +1,35 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+outfit/temp.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Local outputs
+result.json
+*.bodylang.json
+bodylang/models/*.part
+
+# Large local media/test artifacts
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.m4v
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
